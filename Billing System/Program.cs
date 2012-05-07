@@ -44,7 +44,7 @@ namespace BillingSystem
                 Console.WriteLine("User Type:");
                 Console.WriteLine("----------------\n");
 
-Console.Write(@"
+                Console.Write(@"
 1 - Employee
 2 - Affiliate
 3 - Customer
@@ -64,16 +64,11 @@ Please select one (1, 2, or 3): ");
                     // Perform explicit cast from int to UserType enum type
                     UserType myUserType = (UserType)userType;
 
-                    switch (myUserType)
+                    if (myUserType == UserType.Customer)
                     {
-                        case UserType.Customer:
-                            {
-                                // Read membership date of the user
-                                Console.Write("Enter Membership Date: ");
-                                user.MembershipDate = DateTime.Parse(Console.ReadLine());
-
-                                break;
-                            }
+                        // Read membership date of the user
+                        Console.Write("Enter Membership Date: ");
+                        user.MembershipDate = DateTime.Parse(Console.ReadLine());
                     }
 
                     // Read Non Grocery Bill of the user

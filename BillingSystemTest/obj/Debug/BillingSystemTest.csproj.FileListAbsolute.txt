@@ -5,3 +5,10 @@ C:\Users\Mohit\Desktop\BillingAssignment\BillingSystemTest\bin\Debug\Billing Sys
 C:\Users\Mohit\Desktop\BillingAssignment\BillingSystemTest\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Mohit\Desktop\BillingAssignment\BillingSystemTest\obj\Debug\BillingSystemTest.dll
 C:\Users\Mohit\Desktop\BillingAssignment\BillingSystemTest\obj\Debug\BillingSystemTest.pdb
+C:\Billing-System-Assignment\BillingSystemTest\bin\Debug\BillingSystemTest.dll
+C:\Billing-System-Assignment\BillingSystemTest\bin\Debug\BillingSystemTest.pdb
+C:\Billing-System-Assignment\BillingSystemTest\bin\Debug\Billing System.exe
+C:\Billing-System-Assignment\BillingSystemTest\bin\Debug\Billing System.pdb
+C:\Billing-System-Assignment\BillingSystemTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Billing-System-Assignment\BillingSystemTest\obj\Debug\BillingSystemTest.dll
+C:\Billing-System-Assignment\BillingSystemTest\obj\Debug\BillingSystemTest.pdb

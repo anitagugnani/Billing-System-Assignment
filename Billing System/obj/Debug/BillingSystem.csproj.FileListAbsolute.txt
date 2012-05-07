@@ -10,3 +10,6 @@ C:\Users\Mohit\Desktop\BillingAssignment\Billing System\obj\Debug\Billing System
 C:\Users\Mohit\Desktop\BillingAssignment\Billing System\obj\Debug\Billing System.pdb
 C:\Billing-System-Assignment\Billing System\obj\Debug\Billing System.exe
 C:\Billing-System-Assignment\Billing System\obj\Debug\Billing System.pdb
+C:\Billing-System-Assignment\Billing System\bin\Debug\Billing System.exe
+C:\Billing-System-Assignment\Billing System\bin\Debug\Billing System.pdb
+C:\Billing-System-Assignment\Billing System\obj\Debug\ResolveAssemblyReference.cache
