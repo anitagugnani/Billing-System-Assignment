@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1e9a5d19-882e-4f50-8219-2e060e7eae08" name="Mohit@ROCKY 2012-05-07 15:15:23" runUser="Rocky\Mohit" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="1bf5c6e0-5b6e-45e6-9274-68f6d7d21530">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Mohit\Desktop\BillingAssignment\Billing System\TestResults\Mohit_ROCKY 2012-05-07 15_15_23">
+      <DeploymentItem filename="C:\Users\Mohit\Desktop\BillingAssignment\Billing System\bin\Debug\Billing System.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2012-05-07T15:15:23.4330863+05:30" queuing="2012-05-07T15:15:24.4220863+05:30" start="2012-05-07T15:15:24.6710863+05:30" finish="2012-05-07T15:15:25.4590863+05:30" />
+  <TestDefinitions>
+    <UnitTest name="GetNetPayableAmountForEmployeeTest5" storage="c:\users\mohit\desktop\billingassignment\billingsystemtest\bin\debug\billingsystemtest.dll" id="afa450e5-e425-6551-ae4a-c2b96d7c9af2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="491a02b2-ff2f-4f29-ae86-64106fd9974d" />
+      <TestMethod codeBase="C:\Users\Mohit\Desktop\BillingAssignment\BillingSystemTest\bin\Debug\BillingSystemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BillingSystemTest.BillingTest, BillingSystemTest" name="GetNetPayableAmountForEmployeeTest5" />
+    </UnitTest>
+    <UnitTest name="GetNetPayableAmountForEmployeeTest7" storage="c:\users\mohit\desktop\billingassignment\billingsystemtest\bin\debug\billingsystemtest.dll" id="300606c3-33e3-aec8-f796-6a016df93860">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a38a51ca-7920-4aed-b0b0-fe9a4896b6c0" />
+      <TestMethod codeBase="C:\Users\Mohit\Desktop\BillingAssignment\BillingSystemTest\bin\Debug\BillingSystemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BillingSystemTest.BillingTest, BillingSystemTest" name="GetNetPayableAmountForEmployeeTest7" />
+    </UnitTest>
+    <UnitTest name="GetNetPayableAmountForEmployeeTest3" storage="c:\users\mohit\desktop\billingassignment\billingsystemtest\bin\debug\billingsystemtest.dll" id="f829d9cf-41ae-6f89-4b08-bace973282c0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e7c1b3d5-61ec-4915-8744-5b96d4642a8b" />
+      <TestMethod codeBase="C:\Users\Mohit\Desktop\BillingAssignment\BillingSystemTest\bin\Debug\BillingSystemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BillingSystemTest.BillingTest, BillingSystemTest" name="GetNetPayableAmountForEmployeeTest3" />
+    </UnitTest>
+    <UnitTest name="GetNetPayableAmountForEmployeeTest4" storage="c:\users\mohit\desktop\billingassignment\billingsystemtest\bin\debug\billingsystemtest.dll" id="2c5fdff4-5410-05e0-c2c5-143de03fa61e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="06270409-0e77-4549-9890-073fde77d0f1" />
+      <TestMethod codeBase="C:\Users\Mohit\Desktop\BillingAssignment\BillingSystemTest\bin\Debug\BillingSystemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BillingSystemTest.BillingTest, BillingSystemTest" name="GetNetPayableAmountForEmployeeTest4" />
+    </UnitTest>
+    <UnitTest name="GetNetPayableAmountForEmployeeTest2" storage="c:\users\mohit\desktop\billingassignment\billingsystemtest\bin\debug\billingsystemtest.dll" id="fca2c718-fe7d-a1b2-3c60-d5275f5b2cd4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c19c296d-e886-45ea-bca3-f6c40a3550b2" />
+      <TestMethod codeBase="C:\Users\Mohit\Desktop\BillingAssignment\BillingSystemTest\bin\Debug\BillingSystemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BillingSystemTest.BillingTest, BillingSystemTest" name="GetNetPayableAmountForEmployeeTest2" />
+    </UnitTest>
+    <UnitTest name="GetNetPayableAmountForEmployeeTest1" storage="c:\users\mohit\desktop\billingassignment\billingsystemtest\bin\debug\billingsystemtest.dll" id="fd35dd91-ae60-7064-3deb-c3f9b2fb29d8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f254b125-c274-4458-97d0-d107e24efb05" />
+      <TestMethod codeBase="C:\Users\Mohit\Desktop\BillingAssignment\BillingSystemTest\bin\Debug\BillingSystemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BillingSystemTest.BillingTest, BillingSystemTest" name="GetNetPayableAmountForEmployeeTest1" />
+    </UnitTest>
+    <UnitTest name="GetNetPayableAmountForEmployeeTest6" storage="c:\users\mohit\desktop\billingassignment\billingsystemtest\bin\debug\billingsystemtest.dll" id="535e9d88-86a6-0b91-aee4-6133c5c45a12">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="91742dce-0a6f-4d9d-98c9-a800f79132a7" />
+      <TestMethod codeBase="C:\Users\Mohit\Desktop\BillingAssignment\BillingSystemTest\bin\Debug\BillingSystemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BillingSystemTest.BillingTest, BillingSystemTest" name="GetNetPayableAmountForEmployeeTest6" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fd35dd91-ae60-7064-3deb-c3f9b2fb29d8" executionId="f254b125-c274-4458-97d0-d107e24efb05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fca2c718-fe7d-a1b2-3c60-d5275f5b2cd4" executionId="c19c296d-e886-45ea-bca3-f6c40a3550b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f829d9cf-41ae-6f89-4b08-bace973282c0" executionId="e7c1b3d5-61ec-4915-8744-5b96d4642a8b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c5fdff4-5410-05e0-c2c5-143de03fa61e" executionId="06270409-0e77-4549-9890-073fde77d0f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afa450e5-e425-6551-ae4a-c2b96d7c9af2" executionId="491a02b2-ff2f-4f29-ae86-64106fd9974d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="535e9d88-86a6-0b91-aee4-6133c5c45a12" executionId="91742dce-0a6f-4d9d-98c9-a800f79132a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="300606c3-33e3-aec8-f796-6a016df93860" executionId="a38a51ca-7920-4aed-b0b0-fe9a4896b6c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f254b125-c274-4458-97d0-d107e24efb05" testId="fd35dd91-ae60-7064-3deb-c3f9b2fb29d8" testName="GetNetPayableAmountForEmployeeTest1" computerName="ROCKY" duration="00:00:00.0188018" startTime="2012-05-07T15:15:24.7750863+05:30" endTime="2012-05-07T15:15:25.3140863+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c19c296d-e886-45ea-bca3-f6c40a3550b2" testId="fca2c718-fe7d-a1b2-3c60-d5275f5b2cd4" testName="GetNetPayableAmountForEmployeeTest2" computerName="ROCKY" duration="00:00:00.0004187" startTime="2012-05-07T15:15:25.3200863+05:30" endTime="2012-05-07T15:15:25.3230863+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e7c1b3d5-61ec-4915-8744-5b96d4642a8b" testId="f829d9cf-41ae-6f89-4b08-bace973282c0" testName="GetNetPayableAmountForEmployeeTest3" computerName="ROCKY" duration="00:00:00.0003071" startTime="2012-05-07T15:15:25.3300863+05:30" endTime="2012-05-07T15:15:25.3340863+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="06270409-0e77-4549-9890-073fde77d0f1" testId="2c5fdff4-5410-05e0-c2c5-143de03fa61e" testName="GetNetPayableAmountForEmployeeTest4" computerName="ROCKY" duration="00:00:00.0003349" startTime="2012-05-07T15:15:25.3380863+05:30" endTime="2012-05-07T15:15:25.3420863+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="491a02b2-ff2f-4f29-ae86-64106fd9974d" testId="afa450e5-e425-6551-ae4a-c2b96d7c9af2" testName="GetNetPayableAmountForEmployeeTest5" computerName="ROCKY" duration="00:00:00.0003116" startTime="2012-05-07T15:15:25.3460863+05:30" endTime="2012-05-07T15:15:25.3490863+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="91742dce-0a6f-4d9d-98c9-a800f79132a7" testId="535e9d88-86a6-0b91-aee4-6133c5c45a12" testName="GetNetPayableAmountForEmployeeTest6" computerName="ROCKY" duration="00:00:00.0003094" startTime="2012-05-07T15:15:25.3530863+05:30" endTime="2012-05-07T15:15:25.3570863+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a38a51ca-7920-4aed-b0b0-fe9a4896b6c0" testId="300606c3-33e3-aec8-f796-6a016df93860" testName="GetNetPayableAmountForEmployeeTest7" computerName="ROCKY" duration="00:00:00.0003276" startTime="2012-05-07T15:15:25.3640863+05:30" endTime="2012-05-07T15:15:25.3670863+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

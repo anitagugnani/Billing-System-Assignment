@@ -1,0 +1,5 @@
+C:\MyLearnings\Annie\PivotUnpivot\BillingSystem\Billing System\obj\Debug\ResolveAssemblyReference.cache
+C:\MyLearnings\Annie\PivotUnpivot\BillingSystem\Billing System\bin\Debug\Billing System.exe
+C:\MyLearnings\Annie\PivotUnpivot\BillingSystem\Billing System\bin\Debug\Billing System.pdb
+C:\MyLearnings\Annie\PivotUnpivot\BillingSystem\Billing System\obj\Debug\Billing System.exe
+C:\MyLearnings\Annie\PivotUnpivot\BillingSystem\Billing System\obj\Debug\Billing System.pdb

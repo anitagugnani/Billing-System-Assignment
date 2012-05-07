@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7e155fcc-30f8-4c47-99a3-f5c4bdb6b480" name="Mohit@ROCKY 2012-05-07 14:56:47" runUser="Rocky\Mohit" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="1bf5c6e0-5b6e-45e6-9274-68f6d7d21530">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Mohit\Desktop\BillingAssignment\Billing System\TestResults\Mohit_ROCKY 2012-05-07 14_56_47">
+      <DeploymentItem filename="C:\Users\Mohit\Desktop\BillingAssignment\Billing System\bin\Debug\Billing System.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2012-05-07T14:56:47.3610863+05:30" queuing="2012-05-07T14:56:48.9900863+05:30" start="2012-05-07T14:56:49.3180863+05:30" finish="2012-05-07T14:57:28.4660863+05:30" />
+  <TestDefinitions>
+    <UnitTest name="GetNetPayableAmountTest" storage="c:\users\mohit\desktop\billingassignment\billingsystemtest\bin\debug\billingsystemtest.dll" id="a538f10a-0766-9ee3-3fb4-e36240e32f37">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2b227a30-2ac1-4133-bd60-c87018f45610" />
+      <TestMethod codeBase="C:\Users\Mohit\Desktop\BillingAssignment\BillingSystemTest\bin\Debug\BillingSystemTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BillingSystemTest.BillingTest, BillingSystemTest" name="GetNetPayableAmountTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a538f10a-0766-9ee3-3fb4-e36240e32f37" executionId="2b227a30-2ac1-4133-bd60-c87018f45610" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2b227a30-2ac1-4133-bd60-c87018f45610" testId="a538f10a-0766-9ee3-3fb4-e36240e32f37" testName="GetNetPayableAmountTest" computerName="ROCKY" duration="00:00:38.4144993" startTime="2012-05-07T14:56:49.4880863+05:30" endTime="2012-05-07T14:57:28.3920863+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>Unable to cast object of type 'BillingSystem.User' to type 'BillingSystem.Employee'.</StdOut>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;945&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at BillingSystemTest.BillingTest.GetNetPayableAmountTest() in C:\Users\Mohit\Desktop\BillingAssignment\BillingSystemTest\BillingTest.cs:line 77
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
