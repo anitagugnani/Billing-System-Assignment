@@ -52,43 +52,52 @@ Console.Write(@"
 Please select one (1, 2, or 3): ");
 
                 int userType = Int32.Parse(Console.ReadLine());
-
-                // Perform explicit cast from int to UserType enum type
-                UserType myUserType = (UserType)userType;
-
-                switch (myUserType)
+                while (true)
                 {
-                    case UserType.Customer:
-                        {
-                            // Read membership date of the user
-                            Console.Write("Enter Membership Date: ");
-                            user.MembershipDate = DateTime.Parse(Console.ReadLine());
+                    if (userType < 1 || userType > 3)
+                    {
+                        Console.WriteLine("Invalid input");
+                        Console.ReadKey();
+                        break;
+                    }
 
-                            //user = customer;
-                            break;
-                        }
+                    // Perform explicit cast from int to UserType enum type
+                    UserType myUserType = (UserType)userType;
+
+                    switch (myUserType)
+                    {
+                        case UserType.Customer:
+                            {
+                                // Read membership date of the user
+                                Console.Write("Enter Membership Date: ");
+                                user.MembershipDate = DateTime.Parse(Console.ReadLine());
+
+                                break;
+                            }
+                    }
+
+                    // Read Non Grocery Bill of the user
+                    Console.Write("Enter Non Grocery Bill: ");
+                    user.NonGroceryBill = Double.Parse(Console.ReadLine());
+
+                    // Read Grocery Bill of the user
+                    Console.Write("Enter Grocery Bill: ");
+                    user.GroceryBill = Double.Parse(Console.ReadLine());
+
+                    Billing billingObj = new Billing();
+                    double netPayableAmount = billingObj.GetNetPayableAmount(user, user.NonGroceryBill, user.GroceryBill, myUserType);
+                    Console.WriteLine("Net payable amount is: {0}", netPayableAmount);
+                    Console.ReadLine();
+
+                    System.Environment.Exit(0);
+                    return;
                 }
-
-                // Read Non Grocery Bill of the user
-                Console.Write("Enter Non Grocery Bill: ");
-                user.NonGroceryBill = Double.Parse(Console.ReadLine());
-
-                // Read Grocery Bill of the user
-                Console.Write("Enter Grocery Bill: ");
-                user.GroceryBill = Double.Parse(Console.ReadLine());
-
-                Billing billingObj = new Billing();
-                double netPayableAmount = billingObj.GetNetPayableAmount(user, user.NonGroceryBill, user.GroceryBill, myUserType);
-                Console.WriteLine("Net payable amount is: {0}", netPayableAmount);
-                Console.ReadLine();
-
-                System.Environment.Exit(0);
-                return;
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.Message.ToString());
-                Console.ReadLine();
+                Console.Read();
+
             }
         }
     }

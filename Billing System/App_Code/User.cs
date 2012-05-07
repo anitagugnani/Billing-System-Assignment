@@ -18,16 +18,6 @@ namespace BillingSystem
         #region Private Fields
 
         /// <summary>
-        /// Holds the grocery bill of the user.
-        /// </summary>
-        private float groceryBill;
-
-        /// <summary>
-        /// Holds the non-grocery bill of the user.
-        /// </summary>
-        private float nonGroceryBill;
-
-        /// <summary>
         /// Holds the membershipDate of the customer.
         /// </summary>
         private DateTime membershipDate;
@@ -47,7 +37,7 @@ namespace BillingSystem
         public double NonGroceryBill { get; set; }
 
         /// <summary>
-        /// Gets or sets the membershipDate of the customer object.
+        /// Gets or sets the membershipDate of the user object of type customer.
         /// </summary>
         public DateTime MembershipDate
         {
@@ -64,7 +54,7 @@ namespace BillingSystem
                 }
                 else
                 {
-                    throw new ArgumentException("Membership Date can! be later than today", "MembershipDate");
+                    throw new ArgumentException("Membership Date cannot be later than today", "MembershipDate");
                 }
             }
         }

@@ -46,10 +46,8 @@ namespace BillingSystem
                 {
                     case UserType.Employee:
                         {
-                            // If user is an Employee
-                            //Employee employee = (Employee)user;
-
-                            // If purchased items are non-groceries, then calculate payable amount based on both Percentage and 
+                            // If purchased items are non-groceries, 
+                            // then calculate payable amount based on both Percentage and 
                             // cash discount of $5 discount per 100$ 
                             if (nonGroceryBill > 0)
                             {
@@ -72,10 +70,8 @@ namespace BillingSystem
 
                     case UserType.Affiliate:
                         {
-                            // If user is an Affliate
-                            //Affiliate affiliate = (Affiliate)user;
-
-                            // If purchased items are non-groceries, then calculate payable amount based on both Percentage and 
+                            // If purchased items are non-groceries, 
+                            // then calculate payable amount based on both Percentage and 
                             // cash discount of $5 discount per 100$ 
                             if (nonGroceryBill > 0)
                             {
@@ -98,18 +94,14 @@ namespace BillingSystem
 
                     case UserType.Customer:
                         {
-                            // If user is a general Customer
-                            //Customer customer = (Customer)user;
-
                             // Check the span of customer membership
                             TimeSpan span = DateTime.Now.Subtract(user.MembershipDate);
                             double years = span.Days / 365.25; // leap years included    
 
-                            // If purchased items are non-groceries, then calculate payable amount based on Percentage else 
-                            // calculate amount based on $5 discount per 100$
                             if (years >= 2)
                             {
-                                // If purchased items are non-groceries, then calculate payable amount based on both Percentage and 
+                                // If purchased items are non-groceries, 
+                                // then calculate payable amount based on both Percentage and 
                                 // cash discount of $5 discount per 100$ 
                                 if (nonGroceryBill > 0)
                                 {
@@ -129,7 +121,8 @@ namespace BillingSystem
                             }
                             else
                             {
-                                // If purchased items are non-groceries, then calculate payable amount based on both Percentage and 
+                                // If purchased items are non-groceries, 
+                                // then calculate payable amount based on both Percentage and 
                                 // cash discount of $5 discount per 100$ 
                                 if (nonGroceryBill > 0)
                                 {

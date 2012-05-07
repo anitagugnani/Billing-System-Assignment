@@ -1,66 +1,30 @@
-﻿using System;
-using BillingSystem;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿//-----------------------------------------------------------------------
+// <copyright file="BillingTest.cs" company="ABCCompany">
+//     Copyright ABCCompany. All rights reserved.
+// </copyright>
+//-----------------------------------------------------------------------
 namespace BillingSystemTest
 {
-    
-    
+    using System;
+    using BillingSystem;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+   
     /// <summary>
-    ///This is a test class for BillingTest and is intended
-    ///to contain all BillingTest Unit Tests
-    ///</summary>
+    /// This is a test class for BillingTest and is intended
+    /// to contain all BillingTest Unit Tests
+    /// </summary>
     [TestClass()]
     public class BillingTest
     {
-        private TestContext testContextInstance;
-
         /// <summary>
-        ///Gets or sets the test context which provides
-        ///information about and functionality for the current test run.
-        ///</summary>
+        /// Gets or sets the test context which provides
+        /// information about and functionality for the current test run.
+        /// </summary>
         public TestContext TestContext
         {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
+            get; set;
         }
-
-        #region Additional test attributes
-        // 
-        //You can use the following additional attributes as you write your tests:
-        //
-        //Use ClassInitialize to run code before running the first test in the class
-        //[ClassInitialize()]
-        //public static void MyClassInitialize(TestContext testContext)
-        //{
-        //}
-        //
-        //Use ClassCleanup to run code after all tests in a class have run
-        //[ClassCleanup()]
-        //public static void MyClassCleanup()
-        //{
-        //}
-        //
-        //Use TestInitialize to run code before running each test
-        //[TestInitialize()]
-        //public void MyTestInitialize()
-        //{
-        //}
-        //
-        //Use TestCleanup to run code after each test has run
-        //[TestCleanup()]
-        //public void MyTestCleanup()
-        //{
-        //}
-        //
-        #endregion
-
-
+                
         /// <summary>
         /// A test for GetNetPayableAmount
         /// Case: Employee
@@ -113,10 +77,10 @@ namespace BillingSystemTest
         {
             Billing target = new Billing();
             User user = new User();
-            double nonGroceryBill = 0; // TODO: Initialize to an appropriate value
-            double groceryBill = 0; // TODO: Initialize to an appropriate value
+            double nonGroceryBill = 0;
+            double groceryBill = 0; 
             UserType userType = UserType.Employee;
-            double expected = 0; // TODO: Initialize to an appropriate value
+            double expected = 0; 
             double actual;
             actual = target.GetNetPayableAmount(user, nonGroceryBill, groceryBill, userType);
             Assert.AreEqual(expected, actual);
@@ -253,10 +217,10 @@ namespace BillingSystemTest
         {
             Billing target = new Billing();
             User user = new User();
-            double nonGroceryBill = 0; // TODO: Initialize to an appropriate value
-            double groceryBill = 0; // TODO: Initialize to an appropriate value
+            double nonGroceryBill = 0; 
+            double groceryBill = 0; 
             UserType userType = UserType.Affiliate;
-            double expected = 0; // TODO: Initialize to an appropriate value
+            double expected = 0; 
             double actual;
             actual = target.GetNetPayableAmount(user, nonGroceryBill, groceryBill, userType);
             Assert.AreEqual(expected, actual);
@@ -352,9 +316,8 @@ namespace BillingSystemTest
         public void GetNetPayableAmountForOldCustomerTest1()
         {
             Billing target = new Billing();
-            Customer customer = new Customer();
-            customer.MembershipDate = Convert.ToDateTime("2010-01-01");
-            User user = customer;
+            User user = new User();
+            user.MembershipDate = Convert.ToDateTime("2010-01-01");
             
             double nonGroceryBill = 0;
             double groceryBill = 990;
@@ -375,9 +338,8 @@ namespace BillingSystemTest
         public void GetNetPayableAmountForOldCustomerTest2()
         {
             Billing target = new Billing();
-            Customer customer = new Customer();
-            customer.MembershipDate = Convert.ToDateTime("2010-01-01");
-            User user = customer;
+            User user = new User();
+            user.MembershipDate = Convert.ToDateTime("2010-01-01");
 
             double nonGroceryBill = 300;
             double groceryBill = 0;
@@ -398,14 +360,13 @@ namespace BillingSystemTest
         public void GetNetPayableAmountForOldCustomerTest3()
         {
             Billing target = new Billing();
-            Customer customer = new Customer();
-            customer.MembershipDate = Convert.ToDateTime("2010-01-01");
-            User user = customer;
+            User user = new User();
+            user.MembershipDate = Convert.ToDateTime("2010-01-01");
 
-            double nonGroceryBill = 0; // TODO: Initialize to an appropriate value
-            double groceryBill = 0; // TODO: Initialize to an appropriate value
+            double nonGroceryBill = 0; 
+            double groceryBill = 0; 
             UserType userType = UserType.Customer;
-            double expected = 0; // TODO: Initialize to an appropriate value
+            double expected = 0; 
             double actual;
             actual = target.GetNetPayableAmount(user, nonGroceryBill, groceryBill, userType);
             Assert.AreEqual(expected, actual);
@@ -421,9 +382,8 @@ namespace BillingSystemTest
         public void GetNetPayableAmountForOldCustomerTest4()
         {
             Billing target = new Billing();
-            Customer customer = new Customer();
-            customer.MembershipDate = Convert.ToDateTime("2010-01-01");
-            User user = customer;
+            User user = new User();
+            user.MembershipDate = Convert.ToDateTime("2010-01-01");
 
             double nonGroceryBill = 300;
             double groceryBill = 990;
@@ -444,9 +404,8 @@ namespace BillingSystemTest
         public void GetNetPayableAmountForOldCustomerTest5()
         {
             Billing target = new Billing();
-            Customer customer = new Customer();
-            customer.MembershipDate = Convert.ToDateTime("2010-01-01");
-            User user = customer;
+            User user = new User();
+            user.MembershipDate = Convert.ToDateTime("2010-01-01");
 
             double nonGroceryBill = 0;
             double groceryBill = 50;
@@ -467,9 +426,8 @@ namespace BillingSystemTest
         public void GetNetPayableAmountForOldCustomerTest6()
         {
             Billing target = new Billing();
-            Customer customer = new Customer();
-            customer.MembershipDate = Convert.ToDateTime("2010-01-01");
-            User user = customer;
+            User user = new User();
+            user.MembershipDate = Convert.ToDateTime("2010-01-01");
 
             double nonGroceryBill = 300;
             double groceryBill = 50;
@@ -490,9 +448,8 @@ namespace BillingSystemTest
         public void GetNetPayableAmountForOldCustomerTest7()
         {
             Billing target = new Billing();
-            Customer customer = new Customer();
-            customer.MembershipDate = Convert.ToDateTime("2010-01-01");
-            User user = customer;
+            User user = new User();
+            user.MembershipDate = Convert.ToDateTime("2010-01-01");
 
             double nonGroceryBill = 50;
             double groceryBill = 50;
@@ -513,9 +470,8 @@ namespace BillingSystemTest
         public void GetNetPayableAmountForNewCustomerTest1()
         {
             Billing target = new Billing();
-            Customer customer = new Customer();
-            customer.MembershipDate = Convert.ToDateTime("2012-01-01");
-            User user = customer;
+            User user = new User();
+            user.MembershipDate = Convert.ToDateTime("2012-01-01");
 
             double nonGroceryBill = 0;
             double groceryBill = 990;
@@ -536,9 +492,8 @@ namespace BillingSystemTest
         public void GetNetPayableAmountForNewCustomerTest2()
         {
             Billing target = new Billing();
-            Customer customer = new Customer();
-            customer.MembershipDate = Convert.ToDateTime("2012-01-01");
-            User user = customer;
+            User user = new User();
+            user.MembershipDate = Convert.ToDateTime("2012-01-01");
 
             double nonGroceryBill = 300;
             double groceryBill = 0;
@@ -559,14 +514,13 @@ namespace BillingSystemTest
         public void GetNetPayableAmountForNewCustomerTest3()
         {
             Billing target = new Billing();
-            Customer customer = new Customer();
-            customer.MembershipDate = Convert.ToDateTime("2012-01-01");
-            User user = customer;
+            User user = new User();
+            user.MembershipDate = Convert.ToDateTime("2012-01-01");
 
-            double nonGroceryBill = 0; // TODO: Initialize to an appropriate value
-            double groceryBill = 0; // TODO: Initialize to an appropriate value
+            double nonGroceryBill = 0; 
+            double groceryBill = 0; 
             UserType userType = UserType.Customer;
-            double expected = 0; // TODO: Initialize to an appropriate value
+            double expected = 0; 
             double actual;
             actual = target.GetNetPayableAmount(user, nonGroceryBill, groceryBill, userType);
             Assert.AreEqual(expected, actual);
@@ -582,9 +536,8 @@ namespace BillingSystemTest
         public void GetNetPayableAmountForNewCustomerTest4()
         {
             Billing target = new Billing();
-            Customer customer = new Customer();
-            customer.MembershipDate = Convert.ToDateTime("2012-01-01");
-            User user = customer;
+            User user = new User();
+            user.MembershipDate = Convert.ToDateTime("2012-01-01");
 
             double nonGroceryBill = 300;
             double groceryBill = 990;
@@ -605,9 +558,8 @@ namespace BillingSystemTest
         public void GetNetPayableAmountForNewCustomerTest5()
         {
             Billing target = new Billing();
-            Customer customer = new Customer();
-            customer.MembershipDate = Convert.ToDateTime("2012-01-01");
-            User user = customer;
+            User user = new User();
+            user.MembershipDate = Convert.ToDateTime("2012-01-01");
 
             double nonGroceryBill = 0;
             double groceryBill = 50;
@@ -661,6 +613,5 @@ namespace BillingSystemTest
             actual = target.GetNetPayableAmount(user, nonGroceryBill, groceryBill, userType);
             Assert.AreEqual(expected, actual);
         }
-
     }
 }
